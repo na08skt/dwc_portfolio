@@ -1,24 +1,27 @@
-# README
+# <千景-Chikage->
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+### サイトテーマ
+<旅行先情報共有サイト>
 
-Things you may want to cover:
+### テーマを選んだ理由
+<旅先の情報をネットで得ようとするときに観光地が他の観光地とどれくらい離れているかを一目で把握することのできるアプリ。地図上で他の観光地との位置情報を確認しながら予定を立てられるようにするアプリ。>
 
-* Ruby version
+### ターゲットユーザ
+<旅行を考えているユーザー>
 
-* System dependencies
+### 主な利用シーン
+<.旅行先を考えている時　.旅先を共有したいユーザー>
 
-* Configuration
+## 設計書
+<追記予定>
 
-* Database creation
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
+- Google maps
