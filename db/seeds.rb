@@ -8,7 +8,7 @@
 
 Admin.create!(
     email: 'chikage@admin.com',
-    password: 'chikage',
+    password: 'chikage'
 )
 
 User.create!(

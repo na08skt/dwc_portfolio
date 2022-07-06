@@ -9,7 +9,7 @@ class CreateLocationReports < ActiveRecord::Migration[6.1]
       t.decimal :latitude
       t.decimal :longitude
       t.date :date, null: false
-      t.strings :event
+      t.string :event
       t.text :body
       t.boolean :publication_status, null: false
 

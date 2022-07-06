@@ -11,6 +11,14 @@
   </head>
 
   <body>
+    <!--ヘッダー=>管理者　ログイン会員　非ログイン会員の三通りのヘッダー-->
+    <% if admin_signed_in? %>
+      <%= render 'layouts/admin_header' %>
+    <% elsif user_signed_in? %>
+      
+    <% else %>
+
+    <% end %>
     <%= yield %>
   </body>
 </html>
