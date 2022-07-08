@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_05_100320) do
+ActiveRecord::Schema.define(version: 2022_07_07_123058) do
 
   create_table "admins", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -72,7 +72,7 @@ ActiveRecord::Schema.define(version: 2022_07_05_100320) do
     t.string "introduction"
     t.string "pare_of_instagram"
     t.string "pare_of_twitter"
-    t.boolean "user_status"
+    t.boolean "user_status", default: false, null: false
     t.integer "user_rank"
     t.string "admin_comment"
     t.datetime "created_at", precision: 6, null: false

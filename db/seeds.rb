@@ -13,5 +13,6 @@ Admin.create!(
 
 User.create!(
     email: 'chikage.guest@user.com',
-    password: 'chikage'
+    password: 'chikage',
+    account_name: 'chikage_guest'
   )
